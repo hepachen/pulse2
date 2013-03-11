@@ -1,4 +1,10 @@
 Pulse2::Application.routes.draw do
+  
+  
+  root :to => 'home#index'
+  match "contact"=>"contact#index"
+  match "ah"=>"ah#index"
+  match "msft"=>"msft#index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

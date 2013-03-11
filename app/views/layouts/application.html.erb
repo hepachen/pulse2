@@ -1,14 +1,38 @@
+
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Pulse2</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+	<head>
+		<title>Pulse2</title>
+		<%= stylesheet_link_tag    "application", :media => "all" %>
+		<%= javascript_include_tag "application" %>
+		<%= csrf_meta_tags %>
 
-<%= yield %>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<a href="/">Home</a>
+				<a href="/contact">Contact</a>
+			</nav>
 
-</body>
+			<h1>DX<span>Pulse</span></h1><span></span>
+		</header>
+
+		<section id="tabs">
+			<nav><a href="/ah">AppHighlights</a></nav>
+			<nav><a href="/msft">Microsoft</a> </nav>
+
+			<article>
+							<%= yield %>
+
+
+			</article>
+		</section>
+		<footer>
+			<p>
+				&copy; Copyright Nokia 2013 
+			</p>
+		</footer>
+
+	</body>
 </html>

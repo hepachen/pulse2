@@ -1,0 +1,2 @@
+class MsftController < ApplicationController
+end

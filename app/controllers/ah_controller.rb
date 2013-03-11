@@ -1,0 +1,2 @@
+class AhController < ApplicationController
+end
