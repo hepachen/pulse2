@@ -8,6 +8,7 @@
 		<%= csrf_meta_tags %>
 
 	</head>
+	
 	<body>
 		<header>
 			<nav>
@@ -17,17 +18,18 @@
 
 			<h1>DX<span>Pulse</span></h1><span></span>
 		</header>
-
 		<section id="tabs">
 			<nav><a href="/ah">AppHighlights</a></nav>
 			<nav><a href="/msft">Microsoft</a> </nav>
+			<nav><a href="/kpi">KPI</a> </nav>
 
 			<article>
 							<%= yield %>
 
 
 			</article>
-		</section>
+		</section>	
+
 		<footer>
 			<p>
 				&copy; Copyright Nokia 2013 

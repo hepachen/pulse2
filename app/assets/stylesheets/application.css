@@ -23,7 +23,7 @@ body {
   background: #fff;
   color: #333;
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 1300px;
   font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 
@@ -149,7 +149,7 @@ a:active{
 
 #tabs nav a
 {
-	width:145px;
+	width:345px;
 	display:table-cell;
 	padding:1em;
 	text-align:center;
